@@ -131,7 +131,7 @@ const Todo = () => {
 
   return (
     <div className="min-h-screen bg-cyan-300 flex flex-col items-center justify-start p-6">
-      <div className="bg-white w-full max-w-md shadow-2xl rounded-2xl p-6 mt-10">
+      <div className="bg-white w-full  max-w-md shadow-2xl rounded-2xl p-6 mt-10">
         <h1 className="text-3xl font-bold text-center text-amber-600 mb-6">
           📝 Todo List
         </h1>
@@ -143,7 +143,7 @@ const Todo = () => {
             value={todoinput}
             onChange={(e) => setTodoInput(e.target.value)}
             placeholder="Enter your task..."
-            className="flex-grow p-3 border border-amber-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-400 bg-amber-50"
+            className="flex-grow w-sm[70%] p-3 border border-amber-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-400 bg-amber-50"
           />
           {isEdit ? (
             <>
