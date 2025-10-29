@@ -130,7 +130,7 @@ const Todo = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-amber-200 via-lime-200 to-amber-400 flex flex-col items-center justify-start p-6">
+    <div className="min-h-screen bg-cyan-300 flex flex-col items-center justify-start p-6">
       <div className="bg-white w-full max-w-md shadow-2xl rounded-2xl p-6 mt-10">
         <h1 className="text-3xl font-bold text-center text-amber-600 mb-6">
           📝 Todo List
